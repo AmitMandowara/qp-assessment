@@ -11,7 +11,6 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>grocery</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>grocery</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -71,6 +70,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>grocery</finalName>
 	</build>
 
 </project>
